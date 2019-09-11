@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 19:18:18
+* @Last Modified time: 2019-09-11 19:24:08
 */
 
 * {
@@ -82,18 +82,18 @@ p {
 }
 
 .navbar-link {
-	color: #999;
+	color: #555;
 	font-size: 24px;
 	padding-left: 15%;
 	text-decoration: none;
 }
 
 .navbar-link:active {
-	color: #444;
+	color: #111;
 }
 
 .navbar-link:visited {
-	color: #999;
+	color: #555;
 }
 
 
