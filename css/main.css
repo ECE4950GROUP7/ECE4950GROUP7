@@ -2,17 +2,18 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 17:25:42
+* @Last Modified time: 2019-09-11 17:35:09
 */
 
 * {
 	box-sizing: border-box;
+	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 .debug-border {
-	border: 0 solid orange;
+	border: 0px solid orange;
 }
 
 .flex {
@@ -24,6 +25,20 @@
 	justify-content: center;
 }
 
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
 .width-full {
 	width: 100vw;
+}
+
+.width-60 {
+	width: 60vw;
 }
