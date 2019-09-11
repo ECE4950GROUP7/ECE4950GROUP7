@@ -2,12 +2,13 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 17:35:09
+* @Last Modified time: 2019-09-11 18:26:42
 */
 
 * {
 	box-sizing: border-box;
-	font-family: sans-serif;
+    font-family: 'Roboto Slab','Red Hat Display','Titillium Web', sans-serif;
+
 	margin: 0;
 	padding: 0;
 }
@@ -35,6 +36,14 @@
 	justify-content: space-around;
 }
 
+.margin-bottom-5 {
+	margin-bottom: 5px;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
 .width-full {
 	width: 100vw;
 }
@@ -42,3 +51,12 @@
 .width-60 {
 	width: 60vw;
 }
+
+.width-90 {
+	width: 90vw;
+}
+
+
+
+
+
