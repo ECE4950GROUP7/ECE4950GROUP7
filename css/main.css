@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 17:24:42
+* @Last Modified time: 2019-09-11 17:25:42
 */
 
 * {
@@ -12,7 +12,7 @@
 }
 
 .debug-border {
-	border: 1px solid orange;
+	border: 0 solid orange;
 }
 
 .flex {
