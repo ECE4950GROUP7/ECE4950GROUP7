@@ -2,8 +2,19 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 17:14:24
+* @Last Modified time: 2019-09-11 17:24:42
 */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.debug-border {
+	border: 1px solid orange;
+}
+
 .flex {
 	display: flex;
 }
@@ -11,4 +22,8 @@
 .flex-center {
 	display: flex;
 	justify-content: center;
+}
+
+.width-full {
+	width: 100vw;
 }
