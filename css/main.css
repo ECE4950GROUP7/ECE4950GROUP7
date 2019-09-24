@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-11 19:25:17
+* @Last Modified time: 2019-09-24 14:24:31
 */
 
 * {
@@ -124,6 +124,15 @@ p {
 
 .remove-margin-top {
 	margin-top: -100vh;
+}
+
+.section-header {
+	margin-top: 20px;
+}
+
+.section-subheader {
+	margin-bottom: 15px;
+	margin-top: 20px;
 }
 
 .width-full {
