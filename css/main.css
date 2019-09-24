@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-24 14:24:31
+* @Last Modified time: 2019-09-24 15:44:57
 */
 
 * {
@@ -23,6 +23,21 @@ p {
 
 .debug-border {
 	border: 0px solid orange;
+}
+
+.design-concept {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.design-concept-img {
+	min-width: 40%;
+	max-width: 500px;
+}
+
+.design-concept-text {
+	margin-left: 20px;
+	width: 50%;
 }
 
 .display-inline-block {
@@ -50,6 +65,15 @@ p {
 
 .height-full {
 	height: 100vh;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.logo {
+	margin: 30px;
+	width: 50%;
 }
 
 .margin-bottom-5 {
@@ -108,7 +132,7 @@ p {
 	position:sticky;
 	height:90vh;
 	width:0;
-	margin-left:15vw;
+	margin-left:15%;
 	margin-top:-100vh;
 	top:5vh;
 }

@@ -45,22 +45,22 @@
     <div class="debug-border navbar-side-border" style=""></div>
 
     <div class="debug-border margin-left-18 margin-right-25 remove-margin-top padding-top-25">
-        <p id="s1">
-            Concept 1
-        </p>
-        <p id="s2">
-            Concept 2
-        </p>
-        <p id="s3">
-            Concept 3
-        </p>
-        <p id="s4">
-            Concept 4
-        </p>
-        <p id="s5">
-            Concept 5
-        </p>
-
+        <!-- <div class="flex"> -->
+            <div class="design-concept flex">
+                <img class="design-concept-img" alt="Design concept 1" src="./static/center_pivot.png">
+                <p class="design-concept-text">Our chosen design, a motor will pivot an arm about the base. Its location will be tracked using a camera mounted separately above the board. As it rotates, a servo will alter the position of a sliding electromagnet which will manipulate the game pieces. This design uses a single motor along with a servo to change position. This design is based on a polar system.</p>
+            </div>
+            <hr>
+            <div class="design-concept flex">
+                <img class="design-concept-img" alt="Design concept 2" src="./static/sliding_arm.png">
+                <p class="design-concept-text">An initial design, a combination between a 3d printer and the pivot design above. The sliding mount would be driven by a belt and a second motor. Another motor would pivot about the base as in the design above. This design would thus use two motors, one for rotational control and one for radius control. this design is based of a polar system.</p>
+            </div>
+            <hr>
+           <div class="design-concept flex">
+                <img class="design-concept-img" alt="Design concept 3" src="./static/3dprinter.png">
+                <p class="design-concept-text">A design based on a 3D printer. This would use two motors to manipulate an electromagnet about two axes. This would require two motors and either encoding or computer vision to track the motion of the electromagnet. This design is based off of a cartesian coordinate system.</p>
+            </div>
+        <!-- </div> -->
     </div>
 
     <!--<script src="./js/scroll.js"></script>-->
