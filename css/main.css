@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-25 14:00:11
+* @Last Modified time: 2019-09-25 15:36:29
 */
 
 * {
@@ -157,6 +157,12 @@ p {
 
 .padding-top-25 {
 	padding-top: 25px;
+}
+
+.photo-team {
+	height: 200px;
+	margin-top: 40px;
+	width: 30%;
 }
 
 .position-sticky {
