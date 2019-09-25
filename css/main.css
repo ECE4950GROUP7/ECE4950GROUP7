@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-11 17:13:52
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-24 15:44:57
+* @Last Modified time: 2019-09-25 14:00:11
 */
 
 * {
@@ -19,6 +19,10 @@ body {
 
 p {
 	margin-top: 25px;
+}
+
+.content {
+	min-height: 110vh;
 }
 
 .debug-border {
@@ -72,8 +76,13 @@ p {
 }
 
 .logo {
+	height: 30%;
 	margin: 30px;
-	width: 50%;
+	width: 30%;
+}
+
+.home-head {
+	font-size:32px;
 }
 
 .margin-bottom-5 {
@@ -92,9 +101,17 @@ p {
 	margin-top: 15px;
 }
 
+.member-name {
+	font-size: 12px;
+}
+
 .navbar {
 	padding-top: 5vh;
 	list-style: none;
+	margin-bottom:2.5vh;
+	position:sticky;
+	height:90vh;
+	top:5vh;
 }
 
 .navbar-item {
@@ -107,8 +124,9 @@ p {
 
 .navbar-link {
 	color: #777;
-	font-size: 24px;
+	font-size: 12px;
 	padding-left: 15%;
+	padding-right: 8px;
 	text-decoration: none;
 }
 
@@ -133,7 +151,7 @@ p {
 	height:90vh;
 	width:0;
 	margin-left:15%;
-	margin-top:-100vh;
+	margin-top:-90vh;
 	top:5vh;
 }
 
@@ -151,12 +169,22 @@ p {
 }
 
 .section-header {
+	font-size: 24px;
+	margin-bottom: 20px;
 	margin-top: 20px;
 }
 
 .section-subheader {
 	margin-bottom: 15px;
 	margin-top: 20px;
+}
+
+.slogan {
+	margin-top: 40px;
+}
+
+.slogan-container {
+	max-width: 350px;
 }
 
 .width-full {

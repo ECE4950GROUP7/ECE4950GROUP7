@@ -1,0 +1,26 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-09-25 13:47:06
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2019-09-25 13:52:49
+*/
+
+
+@media (min-width: 1200px)
+{
+	.member-name {
+		font-size: 18px;
+	}
+
+	.navbar-link {
+		color: #777;
+		font-size: 20px;
+		padding-left: 15%;
+		padding-right: 15px;
+		text-decoration: none;
+	}
+
+	.section-header {
+		font-size: 36px;
+	}
+}
